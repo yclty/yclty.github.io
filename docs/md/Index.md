@@ -28,7 +28,7 @@
 
 ![](https://bugstack.cn/images/article/knowledge/knowledge-220123-02.png)
 
-这是小傅哥开发的一款用于帮助使用 IDEA 编写代码的研发人员，快速生成两个对象转换过程中所需要大量的 `x.set(y.get)` 代码块的 vo2dto 插件工具。*可以直接在 IDEA 中搜索安装使用*
+这是yangcheng开发的一款用于帮助使用 IDEA 编写代码的研发人员，快速生成两个对象转换过程中所需要大量的 `x.set(y.get)` 代码块的 vo2dto 插件工具。*可以直接在 IDEA 中搜索安装使用*
 
 | `对vo2dto感兴趣的，程序员👨🏻‍💻‍，来自这些国家` |
 |:---:|
