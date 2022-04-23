@@ -4,5 +4,5 @@
 
    
     - 第2章：项目管理
-        - [项目经理笔记](./md/idea-plugin/%23%20%E9%A1%B9%E7%9B%AE%E7%BB%8F%E7%90%86%E7%AC%94%E8%AE%B0.md)
+       - [项目经理笔记](./md/idea-plugin/%23%20%E9%A1%B9%E7%9B%AE%E7%BB%8F%E7%90%86%E7%AC%94%E8%AE%B0.md)
 
