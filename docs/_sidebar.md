@@ -33,7 +33,7 @@
     - 第4章：MyBatis
        - [整体架构]()  
        - [源码]()   
-     - 第5章：微服务
+    - 第5章：微服务  
        - [网关spring cloud gateway]()   
        - [sentinel]()        
        - [ribbon]()  
@@ -45,19 +45,25 @@
        - [DDD领域驱动设计]()
        - []()
     - 第6章：MySql
-
+       - []()
     - 第7章：Redis
-
+       - []()
     
     - 第8章：Zookeepr
-
+       - []()
     - 第9章：MQ
-
+       - []()
     - 第10章：MongoDB
+       - []()    
     - 第11章：操作系统
+       - []()    
     - 第12章：Linux
+       - []()    
     - 第13章：Docker与k8s
+       - []()    
     - 第14章：Git
+       - []()    
+       
     - 第15章：数据结构与算法
          - [刷题笔记](https://github.com/yclty/myleetcode)  
     - 第16章：前端
