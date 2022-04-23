@@ -1,6 +1,11 @@
 - [:octocat: 首页](/README)
 - :memo: 目录 
-    - 第1章：Java基础
+    - 第1章：项目管理
+        - [项目经理笔记](./md/idea-plugin/%23%20%E9%A1%B9%E7%9B%AE%E7%BB%8F%E7%90%86%E7%AC%94%E8%AE%B0.md)
+
+
+
+    <!-- - 第1章：Java基础
        - [JVM](md/pdf/01-%E4%BB%8EJDK%E6%BA%90%E7%A0%81%E7%BA%A7%E5%88%AB%E5%BD%BB%E5%BA%95%E5%89%96%E6%9E%90JVM%E7%B1%BB%E5%8A%A0%E8%BD%BD%E6%9C%BA%E5%88%B6.pdf)
        - [泛型]()
        - [序列化]()
@@ -103,4 +108,4 @@
         - [面试热点问题]()
     - 第18章：面经
     - 第19章：项目管理
-        - [项目经理笔记](./md/idea-plugin/%23%20%E9%A1%B9%E7%9B%AE%E7%BB%8F%E7%90%86%E7%AC%94%E8%AE%B0.md)
+        - [项目经理笔记](./md/idea-plugin/%23%20%E9%A1%B9%E7%9B%AE%E7%BB%8F%E7%90%86%E7%AC%94%E8%AE%B0.md) -->
