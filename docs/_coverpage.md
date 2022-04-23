@@ -1,6 +1,6 @@
 ![logo](_media/logo.png)
 
-# y c
+# Ycheng's Code
 
 ## talk is cheap. Show me the code.
 
