@@ -2382,11 +2382,11 @@ array\[size\]=**null**;//(有选择的实现)
 #### 基于socket实现进程间通讯？
 
 基于BIO实现的简易server服务器
+```java
 
-**public** **class** BioMainServer01 {
+public class BioMainServer01 {
 
-**private** Logger
-log=LoggerFactory.*getLogger*(BioMainServer01.**class**);
+private Logger log=LoggerFactory.getLogger(BioMainServer01.class
 
 **private** ServerSocket server;
 
@@ -2485,7 +2485,7 @@ socket.close();
 }
 
 }
-
+```
 ## IO
 
 > 磁盘的2个问题：寻址和带宽
