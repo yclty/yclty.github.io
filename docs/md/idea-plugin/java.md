@@ -6994,7 +6994,7 @@ height="2.2423611111111112in"}
 
 #### 快速排序（重点）：
 
-![](media/image202.GIF){width="5.768055555555556in"
+![](media/image202.gif){width="5.768055555555556in"
 height="3.245833333333333in"}
 
 分治的一种，先找出一个数，将小于这个数的放左边，大于的放右边
@@ -7027,7 +7027,7 @@ https://www.cnblogs.com/zhoutaotao/p/3970099.html
 
 #### 归并排序（重点）：
 
-![](media/image206.GIF){width="5.768055555555556in"
+![](media/image206.gif){width="5.768055555555556in"
 height="3.245833333333333in"}
 
 无限拆分后，合并两个有序数组，合并时需要开辟一个临时数组（注意可以先开辟好一个大数组，递归时传入，避免每次都开辟），每次合并后，借助临时数据排好后拷贝到原来数组的left到right的位置
@@ -7065,6 +7065,7 @@ height="1.4645833333333333in"}
 
 > 二叉树遍历的解题模板：
 
+```java  
 void traverse(TreeNode root) {
 
 // 前序遍历
@@ -7078,9 +7079,10 @@ traverse(root.right)
 // 后序遍历
 
 }
+```
 
 > **树的遍历：**
-
+```java
 void traverse(TreeNode root) {
 
 for (TreeNode child : root.children)
@@ -7088,10 +7090,12 @@ for (TreeNode child : root.children)
 traverse(child)
 
 }
+```
 
 **广度优先搜索：**
 
 **层序遍历：利用了队列的FIFO特性 层层推进**
+```java
 
 class Solution {
 
@@ -7146,53 +7150,54 @@ class Solution {
     }
 
 }
-
+```
 **深度算法：**
 
 **自顶而下（前序）**：
-
+```java
 private int answer; // don\'t forget to initialize answer before call
 maximum_depth
 
 private void maximum_depth(TreeNode root, int depth) {
 
-if (root == null) {
+    if (root == null) {
 
-return;
+    return;
 
 }
 
 if (root.left == null && root.right == null) {
 
-answer = Math.max(answer, depth);
+    answer = Math.max(answer, depth);
 
 }
 
-maximum_depth(root.left, depth + 1);
+    maximum_depth(root.left, depth + 1);
 
-maximum_depth(root.right, depth + 1);
+    maximum_depth(root.right, depth + 1);
 
 }
+```
 
 **自低而上**（**后序**）：
-
+```java
 public int maximum_depth(TreeNode root) {
 
-if (root == null) {
+    if (root == null) {
 
-return 0; // return 0 for null node
+    return 0; // return 0 for null node
 
-}
+    }
 
 int left_depth = maximum_depth(root.left);
 
 int right_depth = maximum_depth(root.right);
 
-return Math.max(left_depth, right_depth) + 1; // return depth of the
-subtree rooted at root
-
+return Math.max(left_depth, right_depth) + 1; 
+// return depth of the
+// subtree rooted at root
 }
-
+```
 ### 树的旋转
 
 ![](media/image209.png){width="5.768055555555556in" height="3.325in"}
