@@ -1,6 +1,74 @@
 - [:octocat: 首页](/README)
-- :memo: 目录
+- :memo: 目录 
+    - 第1章：Java基础
    
-   - 第1章：项目管理
+       - [JVM]()
+       - [泛型]()
+       - [序列化]()
+       - [注解]()
+       - [反射]()
+       - [线程]()
+       - [容器]()
+       - [计算机网络]()
+       - [IO]()
+       - [加密]()
+    - 第2章：设计模式
+   
+       - [工厂模式(Factory)]()
+       - [建造模式(Builder)]()
+       - [单例模式(Singleton)]()
+       - [代理设计模式(Proxy)]()
+       - [装饰器设计模式]()
+       - [适配器]()
+       - [泛型]()
+       - [泛型]()
+    - 第3章：Spring
+  
+       - [IOC]()
+       - [AOP]()
+       - [MVC]() 
+       - [BOOT]()
+       - [源码]()
+       - [面试热点]()    
+    - 第4章：MyBatis
+       - [整体架构]()  
+       - [源码]()   
+     - 第5章：微服务
+       - [网关spring cloud gateway]()   
+       - [sentinel]()        
+       - [ribbon]()  
+       - [Spring Security OAuth]()
+       - [skywalking]()
+       - [EKL]()
+       - [Nacos]()
+       - [Dubbo]()
+       - [DDD领域驱动设计]()
+       - []()
+    - 第6章：MySql
+
+    - 第7章：Redis
+
+    
+    - 第8章：Zookeepr
+
+    - 第9章：MQ
+
+    - 第10章：MongoDB
+    - 第11章：操作系统
+    - 第12章：Linux
+    - 第13章：Docker与k8s
+    - 第14章：Git
+    - 第15章：数据结构与算法
+         - [刷题笔记](https://github.com/yclty/myleetcode)  
+    - 第16章：前端
+        - [VUE]()  
+    - 第17章：项目相关
+        - [OCR]()  
+        - [预警监督]() 
+        - [营运管理]() 
+        - [威豹]()                   
+        - [面试热点问题]()
+   - 第18章：面经
+   - 第19章：项目管理
    
        - [项目经理笔记](./md/idea-plugin/%23%20%E9%A1%B9%E7%9B%AE%E7%BB%8F%E7%90%86%E7%AC%94%E8%AE%B0.md)
